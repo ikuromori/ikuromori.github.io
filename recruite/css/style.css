@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+
+/* パラグラフスタート */
+
+.paragraph-start{
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+
+h2{
+    font-size: 24px;
+    padding: 0 0 30px 0;
+}
+
+h3{
+    font-size: 18px;
+    padding: 0 0 60px 0;
+}
+
+p{
+    font-size: 16px;
+    line-height: 40px;
+}
+
+/* ヘッダー */
+
+.header_logo{
+    padding:25px 20px;
+    float: left;
+}
+
+.header-tittle{
+    float: right;
+}
+
+.header-tittle li{
+    float: left;
+    padding: 50px 50px 50px 0px;
+    font-size: 21px;
+    list-style: none;
+}
+
+/* トップ画像 */
+
+.mainimage{
+    position   : relative;
+}
+
+.mainbg{
+    width: 100%;
+}
+
+.main-message{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-20%);
+   text-align: center;
+}
+
+.main-p1{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+}
+
+.main-p2{
+    font-size: 40px;
+    color: white;
+}
+
+/* アバウト */
+
+#about h2{
+  color: #ffd61a;
+}
+
+.about-message{
+    padding-bottom: 40px;
+}
+
+.about-message p{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.about-img{
+    float: left;
+    width: 25%;
+    padding-bottom: 60px;
+}
+
+/* コース */
+.course-wrapper{
+  width: 100%;
+  margin-top: 60px;
+}
+
+.course-inner{
+display: flex;
+flex-wrap: wrap;
+margin-bottom:60px ;
+}
+
+.course-img{
+  width: 50%;
+}
+
+.course-message{
+  width: 50%;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+}
+
+.course-text{
+  width: 480px;
+  margin-left: 50px;
+}
+
+.course-text2{
+  width: 480px;
+  margin:0 50px 0 auto;
+}
+
+
+/* ニュース */
+
+#news h2{
+  color: #ffd61a;
+}
+
+.news-area{
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.news-content{
+    float: left;
+    width: 300px;
+}
+.news-content.center{
+  margin-right:30px;
+  margin-left: 30px;
+}
+
+.news-img{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.news-date{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.news-message{
+    text-align: left;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.clear{
+    clear:left;
+  }
+
+  .news-outer{
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #ffd61a;
+    position: relative;
+  }
+
+  .news-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);    
+  }
+
+  /* アクセス */
+
+
+  .access1{
+      margin-top: 60px;
+      background-color: #fafafa;
+      padding-bottom: 30px;
+  }
+
+  .access-table{
+    padding-top: 45px;
+    padding-left: 35%;
+  }
+
+  .access-dt{
+    float: left;
+    padding: 10px;
+  }
+  
+  .access-dd{
+    margin-left: 150px;
+    padding: 10px;
+  }
+
+  
+
+
+  /* コンタクト */
+
+
+
+  .contact{
+    margin-bottom: 140px;
+  }
+
+  .contact-message p{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .contact-message{
+    margin-bottom: 30px;  
+  }
+
+
+ 
+  .form-wrapper{
+      width: 640px;
+      margin: auto;
+  }
+
+  .form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:30px ;
+}
+
+.form-tittle{
+      width: 240px;
+      border: solid #bfbfbf;
+      border-width: 1px 1px 0 0;
+      box-sizing: border-box;
+      font-size: 16px;
+      padding: 8px 64px 8px 16px ;
+      line-height: 20px;
+  }
+
+.form-tittle.bottom{
+  border-width: 1px 1px 1px 0;
+}  
+
+  /* 
+  .form-tittle.check-radio{
+      padding: 0px 0 0 0 ;
+  }
+   */
+
+   .form-item{
+      width: 400px;
+      border: solid #bfbfbf;
+      border-width: 1px 0 0 0;
+      box-sizing: border-box;
+  }
+
+  .form-item.bottom{
+    border-width: 1px 0 1px 0;
+  }  
+
+  .form-parts{
+      width: 328px;
+      height: 36px;
+      margin: 8px 0 8px 8px;
+      padding: 8px 0 8px 8px;
+      font-size: 16px;
+      border: solid 1px #bfbfbf;
+  }
+
+  .form-textarea{
+    width: 328px;
+    height: 120px;
+    margin: 8px 0 8px 8px;
+    padding: 8px 0 8px 8px;
+    font-size: 16px;
+    border: solid 1px #bfbfbf;
+  }
+
+  .form-submit{
+    text-align: center;
+  }
+
+  .form-button{
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #ffd61a;
+    color: white;
+    border-color: rgba(0,0,0,0);
+  }
+
+
+  label{
+    display: block; 
+    margin: 24px 0; 
+  }
+
+
+/* フッター */
+
+footer{
+  background-color:#707070 ;
+}
+.footer-message{
+  text-align: center;
+  padding: 30px 0 30px 0 ;
+  color: white;
+}
+
+input[type=checkbox] {
+	margin: 0 6px 0 12px;
+}
